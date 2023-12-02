@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  background: #f3fbff;
+}
+
+.img-box {
+  position: relative;
+  background: #f3fbff;
+  background-image: url(assets/background.png);
+  overflow: hidden;
+}
+
+.img-wrap {
+  width: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+#line {
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 40px;
+  top: 0;
+  background: #fff;
+  cursor: ew-resize;
+}
+
+#arrow {
+  width: 32px;
+  position: absolute;
+  top: 50%;
+  left: -16px;
+  margin-top: -16px;
+}
